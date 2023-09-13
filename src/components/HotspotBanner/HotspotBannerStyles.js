@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import {motion} from "framer-motion";
-import {Stack, Typography} from "@mui/material";
-import {COLORS} from "../../constants";
+import {Typography} from "@mui/material";
 
 export const HeroSection = styled.section`
   height: 100vh;
@@ -11,7 +10,6 @@ export const HeroSection = styled.section`
 
 export const ImgWrapper = styled(motion.div)`
   display: flex;
-  justify-content: flex-end;
   max-height: 700px;
   justify-content: center;
   position: relative;

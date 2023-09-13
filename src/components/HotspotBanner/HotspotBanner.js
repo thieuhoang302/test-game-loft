@@ -8,7 +8,6 @@ import Nintendo from "../../assets/images/nintendo.png"
 const HotspotBanner = ({
                            Image,
                            title,
-                           rating,
                            subtitle
                        }) => {
     const CustomButton = ({children, ...props}) => (
@@ -76,7 +75,7 @@ const HotspotBanner = ({
                             xs={6}
                             style={{display: "flex", justifyContent: "flex-end"}}
                         >
-                            <img src={Nintendo} style={{display: "inline-block"}}/>
+                            <img src={Nintendo} alt ="img" style={{display: "inline-block"}}/>
                             <CustomButton>
                                 {/*<AppleIcon sx={{fontSize: 36, ml: -1}}/>*/}
                                 <Stack sx={{textAlign: "left", ml: 1}}>

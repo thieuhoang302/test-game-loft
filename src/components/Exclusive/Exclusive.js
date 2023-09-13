@@ -17,7 +17,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import {COLORS} from "../../constants";
 
-const { title, subtitle, IMAGES } = ExclusiveData;
+const { title, subtitle } = ExclusiveData;
 
 const SwiperButton = () => {
     const swiper = useSwiper();

@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React from 'react';
 import {Container, Section, TextWrapper} from '../../globalStyles';
 import {SwiperSlide} from "swiper/react";
 import ShareIcon from "@mui/icons-material/Share";
@@ -14,7 +14,7 @@ import {CarouselImage, ImageWrapper, SubText, SwiperStyles, Title} from "./Event
 import {data} from "../../utils/CarouselData";
 import {COLORS} from "../../constants";
 
-const { title, subtitle, IMAGES } = EventPromotionalData;
+const { title, subtitle } = EventPromotionalData;
 const pagination = {
     clickable: true,
     renderBullet: function (index, className) {
