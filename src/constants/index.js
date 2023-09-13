@@ -5,34 +5,36 @@ export const COLORS = {
     WHITE: "#FFFFFF",
     BLUE: "#2699FB",
     BlUR_BLUE: "#D8EDFF",
+    BLUE_WHITE: "#EBF6FF",
     BLUE_NAVBAR: "#A9D6FD",
     // BACKGROUND:"#EBF6FF",
     BACKGROUND: "brown",
 
 };
-
-export const STYLES = {
-    checkbox: {
-        color: 'blue',
-        '&.Mui-checked': {
-            color: 'blue',
+export const STYLES_LABEL = {
+    '& label.Mui-focused': {
+        color: COLORS.BLUE,
+    },
+    '& label': {
+        color: COLORS.BLUE,
+    },
+    '& .MuiInput-underline:after': {
+        borderBottomColor: COLORS.BLUE,
+    },
+    '& .MuiOutlinedInput-root': {
+        '& fieldset': {
+            borderColor: COLORS.BLUE,
+        },
+        '&:hover fieldset': {
+            borderColor: COLORS.BLUE,
+        },
+        '&.Mui-focused fieldset': {
+            borderColor: COLORS.BLUE,
         },
     },
-
-    // TextField
-    textField: {
-        '& .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline': {
-            borderColor: 'blue',
-        },
-        '& .MuiFormLabel-root.Mui-focused': {
-            color: 'blue',
-        },
-    },
-
-    // Autocomplete
-    autocomplete: {
-        '& .MuiAutocomplete-inputRoot .MuiAutocomplete-input': {
-            color: 'blue',
-        },
-    },
+    '& .MuiSvgIcon-root': {
+        color: COLORS.BLUE,
+    }
 }
+
+
